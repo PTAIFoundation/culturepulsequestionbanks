@@ -1,2 +1,375 @@
 # culturepulsequestionbanks
 Overview of question bank options for selection in the culture pulse K12 process. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Culture Pulse 360 Question Bank</title>
+<style>
+/* Theme Variables */
+:root {
+  --font-family-display: Arial, sans-serif;
+  --font-weight-display: 600;
+  --font-family-content: Arial, sans-serif;
+  --font-weight-content: 400;
+  --font-size-content: 16px;
+  --line-height-content: 1.4;
+}
+
+/* DARK THEME (DEFAULT) */
+body.theme-dark {
+  --color-bg-base: #0f172a;
+  --color-bg-elevated: #020617;
+  --color-bg-surface: #1e293b;
+  --color-bg-muted: #334155;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #cbd5e1;
+  --color-text-muted: #94a3b8;
+  --color-text-accent: #38bdf8;
+  --color-primary: #38bdf8;
+  --color-primary-foreground: #0f172a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-content);
+  font-weight: var(--font-weight-content);
+  font-size: var(--font-size-content);
+  line-height: var(--line-height-content);
+  overflow-x: hidden;
+}
+
+.slide {
+  width: 960px;
+  height: 540px;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.row { flex-direction: row; }
+.col { flex-direction: column; }
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fill-width { flex: 1; }
+
+.gap-md { gap: 1rem; }
+.gap-lg { gap: 1.5rem; }
+
+.p-16 { padding: 4rem; }
+
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.mb-8 { margin-bottom: 2rem; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-display);
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+
+.text-2xl { font-size: 1.5rem; }
+.text-xl { font-size: 1.25rem; }
+.text-lg { font-size: 1.125rem; }
+.text-base { font-size: 1rem; }
+.text-sm { font-size: 0.875rem; }
+
+ul, ol {
+  margin-left: 2rem;
+  line-height: 1.8;
+}
+
+ul li { list-style: disc; }
+li { margin-bottom: 0.75rem; }
+li:last-child { margin-bottom: 0; }
+</style>
+</head>
+<body class="theme-dark">
+
+  <!-- Title Slide -->
+  <section class="slide p-16 col center" style="background-color: #020617; color: #f1f5f9;">
+    <h1 class="mb-4" style="color: #38bdf8;">Culture Pulse 360™</h1>
+    <p class="text-2xl mb-4" style="color: #cbd5e1;">Organizational Culture Question Bank</p>
+    <p class="text-lg" style="color: #94a3b8;">Organized by 6 Culture Pulse Domains</p>
+  </section>
+
+  <!-- Domain 1: Planning & Preparation (individual) -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Planning &amp; Preparation (individual)</h2>
+    <p class="text-base mb-4" style="color: #cbd5e1;">
+      <strong>Definition:</strong> Self-rated mastery of core instructional planning, assessment, and differentiation components.
+    </p>
+    <h4 class="mb-4" style="color: #38bdf8;">Instructional Components – Self‑Mastery</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Priority Standards.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Unit Design.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Common Formative Assessments.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Small Group Instruction.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Data Cycles.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Daily Lesson Plans.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Parent Outreach.</li>
+    </ul>
+  </section>
+
+  <!-- Planning & Preparation (individual) – Continued -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Planning &amp; Preparation (individual) (cont.)</h2>
+    <h4 class="mb-4" style="color: #38bdf8;">Culturally Responsive &amp; Differentiated Planning</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Culturally Relevant Pedagogy.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Behavior Management.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Grading.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Social Emotional Learning.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Multi‑Tiered Systems of Support.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Grading for performance.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Grading for growth.</li>
+      <li>Think about yourself. Based on your grade/content area(s) of expertise and knowledge, please self-rate your own mastery levels with the following instructional components: Personalized learning.</li>
+    </ul>
+  </section>
+
+  <!-- Domain 2: Planning & Preparation (building level) -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Planning &amp; Preparation (building level)</h2>
+    <p class="text-base mb-4" style="color: #cbd5e1;">
+      <strong>Definition:</strong> Building‑level systems, processes, and expectations for academic programming and planning.
+    </p>
+    <h4 class="mb-4" style="color: #38bdf8;">Academic Programming Processes</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Priority Standards.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Unit Design.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Curriculum Maps.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Common Formative Assessments.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Small Group Instruction.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Data Cycles.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Coaching &amp; Feedback.</li>
+    </ul>
+  </section>
+
+  <!-- Planning & Preparation (building level) – Continued -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Planning &amp; Preparation (building level) (cont.)</h2>
+    <h4 class="mb-4" style="color: #38bdf8;">Policies, Discipline, and Grading Systems</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Daily Lesson Plans.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Parent Outreach.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Cultural Relevance of Curricular Resources &amp; Materials.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Student Discipline.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Grading for performance.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Grading for growth.</li>
+      <li>To your knowledge, are there defined processes and practices in place IN YOUR BUILDING regarding the following academic programming elements: Personalized learning.</li>
+    </ul>
+  </section>
+
+  <!-- Domain 3: Belonging & Inclusion -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Belonging &amp; Inclusion</h2>
+    <p class="text-base mb-4" style="color: #cbd5e1;">
+      <strong>Definition:</strong> Lived experiences of identity, trust, psychological safety, and equity in relationships.
+    </p>
+    <h4 class="mb-4" style="color: #38bdf8;">Feeling Seen, Known, and Supported</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>My direct evaluator understands what it’s like to be me.</li>
+      <li>District leadership understands what it’s like to be me.</li>
+      <li>I feel closer to colleagues that share my same ethnicity.</li>
+      <li>I experience anxiety when I’m observed by an administrator.</li>
+      <li>I feel comfortable teaching about cultures that are outside my own.</li>
+      <li>Colleagues consider me to be a researcher.</li>
+      <li>I have at least 3 colleagues in my building that I trust.</li>
+      <li>I have at least 1 direct evaluator in my building that I trust.</li>
+    </ul>
+  </section>
+
+  <!-- Belonging & Inclusion – Continued -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Belonging &amp; Inclusion (cont.)</h2>
+    <h4 class="mb-4" style="color: #38bdf8;">Identity, Race, and Cross‑Cultural Interaction</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>I believe that race-related topics are not appropriate discussion during instructional time.</li>
+      <li>Some staff members are treated better due to favoritism on the basis of race.</li>
+      <li>I have a place to ask questions about people who have different cultural backgrounds than myself.</li>
+      <li>I find myself interacting more easily with individuals who share the same racial identity as me.</li>
+      <li>When I was a student, I had at least one teacher who encouraged me to interact with classmates of differing racial identities.</li>
+      <li>Please rate where you currently find yourself with the term “antiracism.”</li>
+      <li>It is difficult to get communication translated for families whose first language is not English.</li>
+    </ul>
+  </section>
+
+  <!-- Domain 4: Delivery of Instruction -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Delivery of Instruction</h2>
+    <p class="text-base mb-4" style="color: #cbd5e1;">
+      <strong>Definition:</strong> Day‑to‑day implementation of culturally responsive, rigorous, and differentiated instruction.
+    </p>
+    <h4 class="mb-4" style="color: #38bdf8;">Culturally Responsive Education – Classroom Practice</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>Think through the following themes aligned to core tenets of culturally responsive education in the classroom. Please self‑rate your current implementation stage in your own classroom: Engagement.</li>
+      <li>Think through the following themes aligned to core tenets of culturally responsive education in the classroom. Please self‑rate your current implementation stage in your own classroom: Cultural Identity.</li>
+      <li>Think through the following themes aligned to core tenets of culturally responsive education in the classroom. Please self‑rate your current implementation stage in your own classroom: Relationships.</li>
+      <li>Think through the following themes aligned to core tenets of culturally responsive education in the classroom. Please self‑rate your current implementation stage in your own classroom: Vulnerability.</li>
+      <li>Think through the following themes aligned to core tenets of culturally responsive education in the classroom. Please self‑rate your current implementation stage in your own classroom: Assets.</li>
+      <li>Think through the following themes aligned to core tenets of culturally responsive education in the classroom. Please self‑rate your current implementation stage in your own classroom: Rigor.</li>
+    </ul>
+  </section>
+
+  <!-- Delivery of Instruction – MTSS Core -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Delivery of Instruction (cont.)</h2>
+    <h4 class="mb-4" style="color: #38bdf8;">Multi‑Tiered Systems of Support – Classroom</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>Think through the following themes aligned to core tenets of multi‑tiered systems of support (MTSS) in the classroom. Please self‑rate your current implementation stage in your own classroom: Use of daily formative assessments to adjust instruction.</li>
+      <li>Think through the following themes aligned to core tenets of multi‑tiered systems of support (MTSS) in the classroom. Please self‑rate your current implementation stage in your own classroom: Developing learning objectives based upon student skills mastery.</li>
+      <li>Think through the following themes aligned to core tenets of multi‑tiered systems of support (MTSS) in the classroom. Please self‑rate your current implementation stage in your own classroom: Reteaching cycles and corrective instruction.</li>
+      <li>Think through the following themes aligned to core tenets of multi‑tiered systems of support (MTSS) in the classroom. Please self‑rate your current implementation stage in your own classroom: The individual social‑emotional learning levels of students.</li>
+      <li>Think through the following themes aligned to core tenets of multi‑tiered systems of support (MTSS) in the classroom. Please self‑rate your current implementation stage in your own classroom: Use of positive framing and positive narration in my communication.</li>
+      <li>Think through the following themes aligned to core tenets of multi‑tiered systems of support (MTSS) in the classroom. Please self‑rate your current implementation stage in your own classroom: Student choice in how mastery of skills is demonstrated.</li>
+      <li>Think through the following themes aligned to core tenets of multi‑tiered systems of support (MTSS) in the classroom. Please self‑rate your current implementation stage in your own classroom: Multiple opportunities for students to engage with a learning objective.</li>
+      <li>Think through the following themes aligned to core tenets of multi‑tiered systems of support (MTSS) in the classroom. Please self‑rate your current implementation stage in your own classroom: Student preferred learning modalities and interests.</li>
+    </ul>
+  </section>
+
+  <!-- Delivery of Instruction – Classroom Feedback & Student Voice -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Delivery of Instruction (cont.)</h2>
+    <h4 class="mb-4" style="color: #38bdf8;">Feedback &amp; Student Voice in Classroom</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>The following question set is related to equitable feedback practices and their frequency of implementation. Please select the response that is the closest approximation: How often do you provide feedback to students?</li>
+      <li>The following question set is related to equitable feedback practices and their frequency of implementation. Please select the response that is the closest approximation: How often do students get to give and receive feedback from peers?</li>
+      <li>The following question set is related to equitable feedback practices and their frequency of implementation. Please select the response that is the closest approximation: How often do students get to teach their classmates?</li>
+      <li>The following question set is related to equitable feedback practices and their frequency of implementation. Please select the response that is the closest approximation: How often do students get choice in how they demonstrate mastery of skills?</li>
+    </ul>
+  </section>
+
+  <!-- Domain 5: Leadership Development -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Leadership Development</h2>
+    <p class="text-base mb-4" style="color: #cbd5e1;">
+      <strong>Definition:</strong> Individual and collective growth as anti‑racist, reflective, and feedback‑rich educators and leaders.
+    </p>
+    <h4 class="mb-4" style="color: #38bdf8;">Anti‑Racist Engagement – What I’m Doing Now</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>Please self‑rate your current ENGAGEMENT with the following tenets of an anti‑racist approach to educating all students. We define ENGAGEMENT as “what I am doing now”: Educating myself about race, anti‑Black racism, and White privilege.</li>
+      <li>Please self‑rate your current ENGAGEMENT with the following tenets of an anti‑racist approach to educating all students. We define ENGAGEMENT as “what I am doing now”: Learning, designing, and teaching an anti‑bias curriculum.</li>
+      <li>Please self‑rate your current ENGAGEMENT with the following tenets of an anti‑racist approach to educating all students. We define ENGAGEMENT as “what I am doing now”: Examining policies and practices at the district and school levels.</li>
+      <li>Please self‑rate your current ENGAGEMENT with the following tenets of an anti‑racist approach to educating all students. We define ENGAGEMENT as “what I am doing now”: Connecting with students by learning about and engaging with their unique cultural identities.</li>
+      <li>Please self‑rate your current ENGAGEMENT with the following tenets of an anti‑racist approach to educating all students. We define ENGAGEMENT as “what I am doing now”: Engaging in conversations with colleagues who think differently than me.</li>
+    </ul>
+  </section>
+
+  <!-- Leadership Development – Commitment & Feedback -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Leadership Development (cont.)</h2>
+    <h4 class="mb-4" style="color: #38bdf8;">Anti‑Racist Commitment – What I Plan To Do</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>Please self‑rate your current COMMITMENT to supporting the following tenets of an anti‑racist approach to educating all students. We define COMMITMENT as “what I plan to do in the future”: Educating myself about race, anti‑Black racism, and White privilege.</li>
+      <li>Please self‑rate your current COMMITMENT to supporting the following tenets of an anti‑racist approach to educating all students. We define COMMITMENT as “what I plan to do in the future”: Learning, designing, and teaching an anti‑bias curriculum.</li>
+      <li>Please self‑rate your current COMMITMENT to supporting the following tenets of an anti‑racist approach to educating all students. We define COMMITMENT as “what I plan to do in the future”: Examining policies and practices at the district and school levels.</li>
+      <li>Please self‑rate your current COMMITMENT to supporting the following tenets of an anti‑racist approach to educating all students. We define COMMITMENT as “what I plan to do in the future”: Connecting with students by learning about and engaging with their unique cultural identities.</li>
+      <li>Please self‑rate your current COMMITMENT to supporting the following tenets of an anti‑racist approach to educating all students. We define COMMITMENT as “what I plan to do in the future”: Engaging in conversations with colleagues who think differently than me.</li>
+    </ul>
+
+    <h4 class="mb-4" style="color: #38bdf8; margin-top: 1.5rem;">Feedback &amp; Professional Learning – Adults</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>The following question set is related to equitable feedback practices and their frequency of implementation. Please select the response that is the closest approximation: Outside of formal evaluations, how often do you receive feedback from an administrator?</li>
+      <li>The following question set is related to equitable feedback practices and their frequency of implementation. Please select the response that is the closest approximation: Outside of formal evaluations, how often do you receive instructional coaching (related to feedback or evaluations) from an administrator?</li>
+      <li>The following question set is related to equitable feedback practices and their frequency of implementation. Please select the response that is the closest approximation: How often do you get the opportunity to engage in professional development?</li>
+      <li>The following question set is related to equitable feedback practices and their frequency of implementation. Please select the response that is the closest approximation: How often do you receive feedback from your peers?</li>
+      <li>The following question set is related to equitable feedback practices and their frequency of implementation. Please select the response that is the closest approximation: How often do you give feedback to your peers?</li>
+      <li>The following question set is related to equitable feedback practices and their frequency of implementation. Please select the response that is the closest approximation: How often do teachers lead professional development in your building?</li>
+    </ul>
+  </section>
+
+  <!-- Leadership Development – Personal Reflection -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Leadership Development (cont.)</h2>
+    <h4 class="mb-4" style="color: #38bdf8;">Professional Engagement – Individual Practices</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>Professional Engagement: Individual &amp; Collective – I take time for intentional introspection (prayer, meditation, journaling, therapy, etc.).</li>
+      <li>Professional Engagement: Individual &amp; Collective – I take time to intentionally “unplug.”</li>
+      <li>Professional Engagement: Individual &amp; Collective – I attend professional retreats or learning conferences of my choosing.</li>
+      <li>Professional Engagement: Individual &amp; Collective – I read books on education and/or leadership.</li>
+    </ul>
+  </section>
+
+  <!-- Domain 6: Operations & Talent Management -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Operations &amp; Talent Management</h2>
+    <p class="text-base mb-4" style="color: #cbd5e1;">
+      <strong>Definition:</strong> Organizational systems, leadership actions, and supports that enable talent, equity, and mission‑aligned operations.
+    </p>
+    <h4 class="mb-4" style="color: #38bdf8;">Organizational Climate &amp; Systems</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>Professional Engagement: Individual &amp; Collective – Mindfulness and other strategies for introspection are valued and encouraged in our organization.</li>
+      <li>Professional Engagement: Individual &amp; Collective – Our organization has a clearly communicated mission, vision, and core values.</li>
+      <li>Professional Engagement: Individual &amp; Collective – My principal and assistant principal(s) live out and embody our mission, vision, and core values.</li>
+      <li>Professional Engagement: Individual &amp; Collective – My principal and assistant principal(s) assume positive intentions and exercise decision‑making that is inclusive and equitable.</li>
+      <li>Professional Engagement: Individual &amp; Collective – My principal and assistant principal(s) do not shy away from courageous conversations because they know they help us grow.</li>
+      <li>Professional Engagement: Individual &amp; Collective – The teacher leaders in my building (grade‑level, department, and ILT) embody our vision, mission, and core values.</li>
+      <li>Professional Engagement: Individual &amp; Collective – The teacher leaders in my building (grade‑level, department, and ILT) assume positive intentions and exercise decision‑making that is inclusive and equitable.</li>
+      <li>Professional Engagement: Individual &amp; Collective – The teacher leaders in my building (grade‑level, department, and ILT) do not shy away from courageous conversations because we know they help us grow.</li>
+      <li>Professional Engagement: Individual &amp; Collective – Our Corporation Leaders (district office and school board) live out and embody our mission, vision, and core values.</li>
+      <li>Professional Engagement: Individual &amp; Collective – Our Corporation Leaders (district office and school board) assume positive intentions and exercise decision‑making that is inclusive and equitable.</li>
+      <li>Professional Engagement: Individual &amp; Collective – Our Corporation Leaders (district office and school board) do not shy away from courageous conversations because they know they help us grow.</li>
+    </ul>
+  </section>
+
+  <!-- Operations & Talent Management – Talent, Resources, Access -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Operations &amp; Talent Management (cont.)</h2>
+    <h4 class="mb-4" style="color: #38bdf8;">Talent, Resources, and Infrastructure</h4>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>Adequate systems are in place to support my individual talents and ideas.</li>
+      <li>I consistently have easy access to the materials I need.</li>
+      <li>It is difficult to get communication translated for families whose first language is not English.</li>
+    </ul>
+  </section>
+
+  <!-- Question Types & Response Scales -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Response Scales Used</h2>
+    <h4 class="mb-4" style="color: #38bdf8;">Mastery Level Scale</h4>
+    <p class="text-base" style="color: #cbd5e1;">Not Sure What This Is • Basic • Effective • Highly Knowledgeable • Expert</p>
+    <h4 class="mb-4" style="color: #38bdf8;">Agreement Scale</h4>
+    <p class="text-base" style="color: #cbd5e1;">Strongly Disagree • Disagree • Sometimes/Somewhat Agree • Agree • Strongly Agree</p>
+    <h4 class="mb-4" style="color: #38bdf8;">Frequency Scale</h4>
+    <p class="text-base" style="color: #cbd5e1;">Never • Rarely • Quarterly • Monthly • Weekly • Daily</p>
+  </section>
+
+  <!-- Implementation Scale -->
+  <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+    <h2 class="mb-6" style="color: #38bdf8;">Implementation Scale</h2>
+    <p class="text-base mb-4" style="color: #cbd5e1;"><strong>For culturally responsive and MTSS practices:</strong></p>
+    <ul class="text-base" style="color: #cbd5e1;">
+      <li>1 – I don’t really focus on this.</li>
+      <li>2 – I consider this sometimes.</li>
+      <li>3 – I am working to be more intentional.</li>
+      <li>4 – This is considered in my curriculum maps.</li>
+      <li>5 – This is embedded in my daily lesson plans.</li>
+    </ul>
+  </section>
+
+  <!-- Thank You / Reliability Slide -->
+  <section class="slide p-16 col center" style="background-color: #020617; color: #f1f5f9;">
+    <h2 class="text-5xl mb-6" style="color: #38bdf8;">Culture Pulse 360™</h2>
+    <p class="text-xl" style="color: #cbd5e1;">Validated Organizational Culture Assessment</p>
+    <p class="text-sm" style="color: #94a3b8; margin-top: 2rem;">Cronbach’s Alpha: .950 | McDonald’s Omega: .951</p>
+  </section>
+
+</body>
+</html>
